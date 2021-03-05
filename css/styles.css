@@ -21,7 +21,7 @@ body{
 
 header{
     height: 100vh;
-    background: url(../assets/images/header.jpg);
+    background-image: linear-gradient(120deg, #f6d46569 0%, #fd9f8573 100%), url(../assets/images/header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -58,7 +58,7 @@ header{
     right: 0;
     width: 30vw;
     height: 100%;
-    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    background-image: linear-gradient(to right, #fa7099de 0%, #fee140 100%);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
