@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Galery</title>
+    <title>Tech Gallery</title>
     <!-- BOXICONS -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <!-- CUSTOM STYLES -->
@@ -16,19 +16,107 @@
 <body>
 
     <header class="header" id="inicio">
-        <img src="assets/icons/bx-menu.svg" alt="">
+        <img src="assets/icons/bx-menu.svg" alt="" class="icon-menu">
         <nav class="menu-nav">
-            <a href="#">Inicio</a>
-            <a href="#">Servicio</a>
-            <a href="#">Portafolio</a>
-            <a href="#">Expertos</a>
-            <a href="#">Contacto</a>
+            <a href="#inicio">Inicio</a>
+            <a href="#servicio">Servicio</a>
+            <a href="#portafolio">Portafolio</a>
+            <a href="#expertos">Expertos</a>
+            <a href="#contactos">Contacto</a>
         </nav>
+        <div class="head">
+            <h1 class="title">Tech Gallery</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore.</p>
+        </div>
     </header>
 
-    <i class='bx bxl-facebook'></i>
-    <i class='bx bxl-linkedin' ></i>
-    <i class='bx bxl-instagram' ></i>
+    <main>
+        <section class="service container" id="servicio">
+            <h2 class="subtitle">Nuestro Servicio</h2>
+            <div class="container-service">
+                <img src="assets/illustration/CPU_Isometric.svg" alt="">
+                <div class="checklist-service">
+                    <div class="service">
+                        <h3 class="n-service"> <span class="number">1</span> Web Design</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa corrupti qui repellendus vero beatae. Eligendi hic eaque voluptate quis nesciunt.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"> <span class="number">2</span> Web Design</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa corrupti qui repellendus vero beatae. Eligendi hic eaque voluptate quis nesciunt.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"> <span class="number">3</span> Web Design</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa corrupti qui repellendus vero beatae. Eligendi hic eaque voluptate quis nesciunt.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="portafolio">
+            <div class="container">
+                <h2 class="subtitle">Galeria</h2>
+                <div class="container-gallery">
+                    <img src="assets/images/galery1.jpg" alt="" class="img-gallery">
+                    <img src="assets/images/galery2.jpg" alt="" class="img-gallery">
+                    <img src="assets/images/galery3.jpg" alt="" class="img-gallery">
+                    <img src="assets/images/galery4.jpg" alt="" class="img-gallery">
+                    <img src="assets/images/galery5.jpg" alt="" class="img-gallery">
+                    <img src="assets/images/galery6.jpg" alt="" class="img-gallery">
+                </div>
+            </div>
+        </section>
+
+        <section class="image-light">
+            <img src="assets/icons/bx-x.svg" alt="" class="close">
+            <img src="assets/images/galery4.jpg" alt="" class="insert-image">
+        </section>
+
+        <section class="container" id="expertos">
+            <h2 class="subtitle"> Expertos en:</h2>
+            <section class="experts">
+                <div class="cont-expert">
+                    <img src="assets/illustration/Phone maintenance_Isometric.svg" alt="">
+                    <h3 class="n-expert">Analytics</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="assets/illustration/Settings_Isometric.svg" alt="">
+                    <h3 class="n-expert">SEO</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="assets/illustration/Online protection_Isometric.svg" alt="">
+                    <h3 class="n-expert">Security</h3>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer id="contacto">
+        <div class="container-footer">
+            <div class="contact-us">
+                <h2 class="brand"> Brayan Espinoza</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="social-media">
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-linkedin' ></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-instagram' ></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="line">
+            
+        </div>
+    </footer>
+
+    
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+    
     
 </body>
 </html>
